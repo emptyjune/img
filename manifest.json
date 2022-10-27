@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "img test",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://www.google.com/search?q=*"],
+            "js": ["index.js"]
+        }
+    ]
+}
