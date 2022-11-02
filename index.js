@@ -10,10 +10,13 @@ setInterval(() => {
             a.src = 'https://i.imgur.com/7Exp6FS.png';
         else if (1.66 < p && p <= 1.85)
             a.src = 'https://i.imgur.com/E6K9FeX.png';
+        else if (1.85 < p && p <= 2.1)
+            a.src = 'https://i.imgur.com/DOBwzkB.png';
         else if (0.8 <= p && p < 0.9)
             a.src = 'https://i.imgur.com/sZmpJsa.png';
         else if (0.7 <= p && p < 0.8)
             a.src = 'https://i.imgur.com/ylldbUR.png';
-        
+        else if (0.4 <= p && p < 0.7)
+            a.src = 'https://i.imgur.com/oV1A3CP.png';
     })
 }, 500);
