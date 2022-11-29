@@ -1,11 +1,15 @@
 {
     "manifest_version": 3,
-    "name": "img test",
-    "version": "0.1",
+    "name": "임준규 바이러스",
+    "version": "0.2",
+    "description": "히히 임준규 바이러스",
     "content_scripts": [
         {
             "matches": ["https://www.google.com/search?q=*"],
             "js": ["index.js"]
         }
-    ]
+    ],
+    "action": {    
+        "default_icon": "favicon.png"
+    }
 }
