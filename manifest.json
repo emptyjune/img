@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "임준규 바이러스",
-    "version": "0.2",
+    "version": "0.3",
     "description": "히히 임준규 바이러스",
     "content_scripts": [
         {
